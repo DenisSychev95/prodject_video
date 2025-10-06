@@ -1,0 +1,71 @@
+
+.search{
+    margin: 20px 50px 0;
+    
+    
+    
+}
+
+.search input{
+    border: 0;
+    padding: 20px 10px 10px;
+    width: calc(100% - 90px);
+    color: #999;
+    font-size: 20px;
+}
+
+.search input:focus{
+    outline: none;
+    border-bottom: 1px solid #CCC;
+}
+
+.btn{
+    background: rgb(9, 4, 70);
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: inset 1px 4px 2px #FFF;
+    border: 2px solid rgb(9, 4, 70);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+ #selected{
+    background: rgb(219, 5, 201);
+    
+}
+
+.radio {
+    margin: 20px 50px 10px;
+}
+
+.radio input{
+    width: 20px;
+    height: 20px;
+}
+
+.radio label{
+    margin-right: 60px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+    margin: 30px;
+}
+.dotted{
+ font-size: 20px;
+   
+}
+.resultFooter{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
