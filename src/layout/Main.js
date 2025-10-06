@@ -16,14 +16,14 @@ class Main extends React.Component {
 
 
     componentDidMount() {
-        fetch("http://www.omdbapi.com/?apikey=5548b982&s=matrix")
+        fetch("https://www.omdbapi.com/?apikey=5548b982&s=matrix")
             .then(response => response.json())
             .then(data => this.setState({ movies: data.Search, loading: false, count: data.totalResults}))
     }
 
     searchMovie = (str, type = "all", page) => {
         this.setState({ loading: true })
-        fetch(`http://www.omdbapi.com/?apikey=5548b982&s=${str}${type !== "all" ? `&type=${type}` : ""}${`&page=${page}`}`)
+        fetch(`https://www.omdbapi.com/?apikey=5548b982&s=${str}${type !== "all" ? `&type=${type}` : ""}${`&page=${page}`}`)
             .then(response => response.json())
             .then(data => this.setState({ movies: data.Search, loading: false, count: data.totalResults}))
             
