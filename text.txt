@@ -1,1 +1,3 @@
 http://www.omdbapi.com/?apikey=5548b982&s=matrix
+
+npm run deploy
