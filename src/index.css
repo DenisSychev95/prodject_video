@@ -9,6 +9,12 @@ body {
 
 .wrap{
   max-width: 1200px;
-  min-width: 255px;
   margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+.wrap {
+    width: 95%;
+    padding: 0 auto;
+  }
 }
