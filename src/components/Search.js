@@ -133,7 +133,7 @@ class Search extends React.Component {
 
                 <div className="navigation">
                     <button className="btn" onClick={this.prevPage}>Previuos</button>
-                    {/*                     <span>
+                                         <span>
 
                         
                         {minLeft > 2 ? <span className="dotted"><button className="btn" onClick={() => this.clickMe(toStart)}>{toStart}</button>...</span> : null}
@@ -150,15 +150,15 @@ class Search extends React.Component {
                         
                         {minRight > 3 ? <span className="dotted" onClick={() => this.clickMe(toEnd)}>...<button className="btn">{toEnd}</button></span> : null}
 
-                    </span> */}
+                    </span> 
 
-                    <div className="items">
+{/*                     <div className="items">
                         {
                             num.slice(firstIndex, lastIndex+1).map((el, index) => (
                                 <button className="btn" key={index} style={{ background: this.state.page !== el ? "" : "gray" }} onClick={() => this.setPage(el)}>{el}</button>
                             ))
                         }
-                    </div>
+                    </div> */}
                     <button className="btn" onClick={this.nextPage}>Next</button>
                 </div>
 
